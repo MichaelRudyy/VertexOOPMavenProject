@@ -1,0 +1,280 @@
+ноя 10, 2016 2:48:37 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 10, 2016 2:48:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 2:48:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 2:48:38 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 871 ms
+ноя 10, 2016 2:48:38 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 10, 2016 2:48:38 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 10, 2016 2:48:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 2:48:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 2:48:38 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 37 ms
+ноя 10, 2016 2:49:40 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ноя 10, 2016 2:49:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 2:49:41 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 2:49:41 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ноя 10, 2016 2:49:41 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 2:49:41 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 2:49:41 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 2:49:41 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 2:51:50 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 10, 2016 2:51:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 2:51:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 2:51:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 579 ms
+ноя 10, 2016 2:51:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 10, 2016 2:51:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 10, 2016 2:51:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 2:51:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 2:51:50 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 33 ms
+ноя 10, 2016 2:52:05 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+ноя 10, 2016 2:52:05 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+ноя 10, 2016 2:52:05 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+ноя 10, 2016 2:52:35 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+ноя 10, 2016 2:52:35 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+ноя 10, 2016 2:52:35 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+ноя 10, 2016 3:05:09 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ноя 10, 2016 3:05:09 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:05:09 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:05:09 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ноя 10, 2016 3:05:09 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:05:09 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:05:09 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:05:09 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:05:17 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 10, 2016 3:05:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:05:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:05:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 613 ms
+ноя 10, 2016 3:05:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 10, 2016 3:05:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 10, 2016 3:05:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:05:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:05:18 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 30 ms
+ноя 10, 2016 3:06:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/publicproject/VertexOOPMavenProject/localTest/apache-tomcat-7.0.37/webapps/testfolder
+ноя 10, 2016 3:08:13 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ноя 10, 2016 3:08:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:08:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:08:14 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ноя 10, 2016 3:08:14 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:08:14 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:08:14 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:08:14 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:08:16 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 10, 2016 3:08:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:08:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:08:16 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 567 ms
+ноя 10, 2016 3:08:16 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 10, 2016 3:08:16 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 10, 2016 3:08:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/publicproject/VertexOOPMavenProject/localTest/apache-tomcat-7.0.37/webapps/testfolder
+ноя 10, 2016 3:08:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:08:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:08:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1115 ms
+ноя 10, 2016 3:09:05 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ноя 10, 2016 3:09:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:09:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:09:05 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ноя 10, 2016 3:09:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:09:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:09:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:09:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:09:07 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 10, 2016 3:09:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:09:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:09:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 567 ms
+ноя 10, 2016 3:09:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 10, 2016 3:09:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 10, 2016 3:09:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/publicproject/VertexOOPMavenProject/localTest/apache-tomcat-7.0.37/webapps/testfolder
+ноя 10, 2016 3:09:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:09:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:09:08 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 943 ms
+ноя 10, 2016 3:11:14 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ноя 10, 2016 3:11:14 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:11:15 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:11:15 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ноя 10, 2016 3:11:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:11:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:11:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:11:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:11:15 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 10, 2016 3:11:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:11:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:11:15 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 567 ms
+ноя 10, 2016 3:11:15 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 10, 2016 3:11:15 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 10, 2016 3:11:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/publicproject/VertexOOPMavenProject/localTest/apache-tomcat-7.0.37/webapps/testfolder
+ноя 10, 2016 3:11:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:11:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:11:16 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 789 ms
+ноя 10, 2016 3:12:40 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ноя 10, 2016 3:12:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:12:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:12:40 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ноя 10, 2016 3:12:40 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:12:40 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:12:40 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:12:40 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:12:40 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 10, 2016 3:12:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:12:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:12:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 563 ms
+ноя 10, 2016 3:12:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 10, 2016 3:12:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 10, 2016 3:12:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/publicproject/VertexOOPMavenProject/localTest/apache-tomcat-7.0.37/webapps/testfolder
+ноя 10, 2016 3:12:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:12:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:12:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 760 ms
+ноя 10, 2016 3:14:16 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ноя 10, 2016 3:14:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:14:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:14:16 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ноя 10, 2016 3:14:16 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:14:16 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:14:16 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:14:16 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:14:16 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 10, 2016 3:14:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:14:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:14:16 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 602 ms
+ноя 10, 2016 3:14:16 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 10, 2016 3:14:16 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 10, 2016 3:14:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/publicproject/VertexOOPMavenProject/localTest/apache-tomcat-7.0.37/webapps/testfolder
+ноя 10, 2016 3:14:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 10, 2016 3:14:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 10, 2016 3:14:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 903 ms
