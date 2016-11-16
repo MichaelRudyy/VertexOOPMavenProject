@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 –љ–Њ—П 10, 2016 2:48:37 PM org.apache.catalina.core.AprLifecycleListener init
 INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
 –љ–Њ—П 10, 2016 2:48:38 PM org.apache.coyote.AbstractProtocol init
@@ -278,3 +279,299 @@ INFO: Starting ProtocolHandler ["http-bio-8081"]
 INFO: Starting ProtocolHandler ["ajp-bio-8009"]
 –љ–Њ—П 10, 2016 3:14:17 PM org.apache.catalina.startup.Catalina start
 INFO: Server startup in 903 ms
+=======
+лист. 10, 2016 8:10:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+лист. 10, 2016 8:10:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+лист. 10, 2016 8:10:54 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+лист. 10, 2016 8:10:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:10:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:10:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1837 ms
+лист. 10, 2016 8:10:54 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+лист. 10, 2016 8:10:54 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+лист. 10, 2016 8:10:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Tanya\IdeaProjects\VertexOOPMavenProject\localTest\apache-tomcat-7.0.37\webapps\ROOT
+лист. 10, 2016 8:10:56 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:10:56 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:10:56 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1834 ms
+лист. 10, 2016 8:11:46 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context []
+лист. 10, 2016 8:11:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+лист. 10, 2016 8:11:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+лист. 10, 2016 8:11:55 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+лист. 10, 2016 8:11:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:11:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:11:55 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+лист. 10, 2016 8:11:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:11:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:11:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:11:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:12:27 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+лист. 10, 2016 8:12:27 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+лист. 10, 2016 8:12:28 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+лист. 10, 2016 8:12:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:12:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:12:29 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1782 ms
+лист. 10, 2016 8:12:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+лист. 10, 2016 8:12:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+лист. 10, 2016 8:12:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Tanya\IdeaProjects\VertexOOPMavenProject\localTest\apache-tomcat-7.0.37\webapps\ROOT
+лист. 10, 2016 8:12:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:12:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:12:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1836 ms
+лист. 10, 2016 8:14:53 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+лист. 10, 2016 8:14:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:14:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:14:53 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+лист. 10, 2016 8:14:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:14:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:14:53 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:14:53 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:15:37 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+лист. 10, 2016 8:15:37 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+лист. 10, 2016 8:15:38 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+лист. 10, 2016 8:15:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:15:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:15:38 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1817 ms
+лист. 10, 2016 8:15:38 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+лист. 10, 2016 8:15:38 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+лист. 10, 2016 8:15:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Tanya\IdeaProjects\VertexOOPMavenProject\localTest\apache-tomcat-7.0.37\webapps\ROOT
+лист. 10, 2016 8:15:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:15:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:15:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2222 ms
+лист. 10, 2016 8:18:11 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+лист. 10, 2016 8:18:11 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+лист. 10, 2016 8:18:12 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+лист. 10, 2016 8:18:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:18:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:18:12 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1824 ms
+лист. 10, 2016 8:18:12 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+лист. 10, 2016 8:18:12 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+лист. 10, 2016 8:18:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Tanya\IdeaProjects\VertexOOPMavenProject\localTest\apache-tomcat-7.0.37\webapps\ROOT
+лист. 10, 2016 8:18:14 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:18:14 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:18:14 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1829 ms
+лист. 10, 2016 8:18:53 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+лист. 10, 2016 8:18:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:18:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:18:53 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+лист. 10, 2016 8:18:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:18:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:18:53 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:18:53 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:19:01 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+лист. 10, 2016 8:19:01 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+лист. 10, 2016 8:19:03 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+лист. 10, 2016 8:19:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:19:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:19:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1855 ms
+лист. 10, 2016 8:19:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+лист. 10, 2016 8:19:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+лист. 10, 2016 8:19:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Tanya\IdeaProjects\VertexOOPMavenProject\localTest\apache-tomcat-7.0.37\webapps\ROOT
+лист. 10, 2016 8:19:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:19:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:19:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1853 ms
+лист. 10, 2016 8:19:23 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+лист. 10, 2016 8:19:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:19:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:19:23 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+лист. 10, 2016 8:19:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:19:24 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:19:24 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:19:24 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:19:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+лист. 10, 2016 8:19:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+лист. 10, 2016 8:19:33 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+лист. 10, 2016 8:19:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:19:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:19:33 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1787 ms
+лист. 10, 2016 8:19:33 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+лист. 10, 2016 8:19:33 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+лист. 10, 2016 8:19:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Tanya\IdeaProjects\VertexOOPMavenProject\localTest\apache-tomcat-7.0.37\webapps\ROOT
+лист. 10, 2016 8:19:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:19:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:19:35 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1923 ms
+лист. 10, 2016 8:20:32 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+лист. 10, 2016 8:20:32 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+лист. 10, 2016 8:20:33 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+лист. 10, 2016 8:20:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:20:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:20:33 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1789 ms
+лист. 10, 2016 8:20:33 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+лист. 10, 2016 8:20:33 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+лист. 10, 2016 8:20:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Tanya\IdeaProjects\VertexOOPMavenProject\localTest\apache-tomcat-7.0.37\webapps\ROOT
+лист. 10, 2016 8:20:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:20:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:20:35 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1868 ms
+лист. 10, 2016 8:29:01 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+лист. 10, 2016 8:29:01 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+лист. 10, 2016 8:29:02 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+лист. 10, 2016 8:29:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:29:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:29:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1882 ms
+лист. 10, 2016 8:29:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+лист. 10, 2016 8:29:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+лист. 10, 2016 8:29:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Tanya\IdeaProjects\VertexOOPMavenProject\localTest\apache-tomcat-7.0.37\webapps\ROOT
+лист. 10, 2016 8:29:04 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:29:04 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:29:04 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1921 ms
+лист. 10, 2016 8:32:54 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context []
+лист. 10, 2016 8:32:54 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+лист. 10, 2016 8:32:56 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+лист. 10, 2016 8:33:49 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+лист. 10, 2016 8:33:49 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+лист. 10, 2016 8:33:51 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+лист. 10, 2016 8:33:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:33:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:33:51 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2185 ms
+лист. 10, 2016 8:33:51 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+лист. 10, 2016 8:33:51 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+лист. 10, 2016 8:33:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Tanya\IdeaProjects\VertexOOPMavenProject\localTest\apache-tomcat-7.0.37\webapps\ROOT
+лист. 10, 2016 8:33:53 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [138] milliseconds.
+лист. 10, 2016 8:33:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8081"]
+лист. 10, 2016 8:33:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+лист. 10, 2016 8:33:53 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2177 ms
+>>>>>>> 65b1bdcc07d8fd2d24ee7436805035b75c58f647
