@@ -1648,3 +1648,128 @@ INFO: Starting ProtocolHandler ["http-bio-8081"]
 INFO: Starting ProtocolHandler ["ajp-bio-8009"]
 ноя 16, 2016 10:55:24 PM org.apache.catalina.startup.Catalina start
 INFO: Server startup in 2133 ms
+ноя 17, 2016 12:48:12 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 17, 2016 12:48:13 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 12:48:13 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 12:48:13 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 562 ms
+ноя 17, 2016 12:48:13 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 17, 2016 12:48:13 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 17, 2016 12:48:13 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test.war
+ноя 17, 2016 12:48:13 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+ноя 17, 2016 12:48:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/ROOT
+ноя 17, 2016 12:48:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/testfolder
+ноя 17, 2016 12:48:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 12:48:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 12:48:14 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1830 ms
+ноя 17, 2016 12:49:05 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/servlet-test]
+ноя 17, 2016 12:49:05 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test.war
+ноя 17, 2016 12:49:05 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+ноя 17, 2016 12:49:26 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/servlet-test]
+ноя 17, 2016 12:52:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test.war
+ноя 17, 2016 12:52:57 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+ноя 17, 2016 12:53:03 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 12:53:03 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 12:53:03 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ноя 17, 2016 12:53:03 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 12:53:03 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 12:53:03 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 12:53:03 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 12:53:06 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 17, 2016 12:53:06 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 12:53:07 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 12:53:07 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 555 ms
+ноя 17, 2016 12:53:07 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 17, 2016 12:53:07 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 17, 2016 12:53:07 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test.war
+ноя 17, 2016 12:53:07 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+ноя 17, 2016 12:53:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/ROOT
+ноя 17, 2016 12:53:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/testfolder
+ноя 17, 2016 12:53:09 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 12:53:09 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 12:53:09 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2095 ms
+ноя 17, 2016 1:01:09 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/servlet-test]
+ноя 17, 2016 1:01:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test.war
+ноя 17, 2016 1:01:09 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+ноя 17, 2016 1:01:12 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 1:01:12 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 1:01:12 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ноя 17, 2016 1:01:12 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 1:01:12 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 1:01:12 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 1:01:12 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 1:01:14 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/vadimdemeshyn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ноя 17, 2016 1:01:14 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 1:01:14 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 1:01:14 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 563 ms
+ноя 17, 2016 1:01:14 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ноя 17, 2016 1:01:14 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+ноя 17, 2016 1:01:14 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test.war
+ноя 17, 2016 1:01:14 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/servlet-test/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+ноя 17, 2016 1:01:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/ROOT
+ноя 17, 2016 1:01:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/vadimdemeshyn/VertexOOPMavenProject/web/tomcat/apache-tomcat-7.0.37/webapps/testfolder
+ноя 17, 2016 1:01:16 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ноя 17, 2016 1:01:16 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ноя 17, 2016 1:01:16 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1887 ms
+Hello World
