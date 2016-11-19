@@ -1,6 +1,6 @@
 
 # Intellij
-.idea/*
+.idea/
 *.iml
 *.iws
  
@@ -10,4 +10,5 @@
 # Maven
 log/
 target/
-localTest/apache-tomcat-7.0.37/logs
+web/tomcat/apache-tomcat-7.0.37/logs/
+
