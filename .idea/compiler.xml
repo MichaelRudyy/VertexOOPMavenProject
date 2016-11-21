@@ -28,9 +28,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="VertexOOPMavenProject" target="1.5" />
-      <module name="VertextTestProject" target="1.5" />
-      <module name="web" target="1.5" />
+      <module name="VertexOOPMavenProject" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
