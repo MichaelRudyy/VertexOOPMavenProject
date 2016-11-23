@@ -25,6 +25,8 @@ public class Registration extends HttpServlet {
             String email = req.getParameter("Email");
             String pass = req.getParameter("Pass");
 
+
+
             String responsString = "Creat User: " + "Name: " + name + " Email: " + email + " Password " + pass;
             System.out.println(responsString);
             resp.getOutputStream().write(responsString.getBytes());

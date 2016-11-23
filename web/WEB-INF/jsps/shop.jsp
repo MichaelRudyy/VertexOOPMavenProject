@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A portfolio template that uses Material Design Lite.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>MDL-Static Website</title>
+    <title>Pivasik</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-pink.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -27,7 +27,7 @@
             <div class="mdl-layout__header-row portfolio-logo-row">
                 <span class="mdl-layout__title">
                     <div class="portfolio-logo"></div>
-                    <span class="mdl-layout__title">Simple website of Products ${r}</span>
+                    <span class="mdl-layout__title">Best website of Pivasik ${r}</span>
                 </span>
                 <%--<div class="reg-block">--%>
                     <%--<!-- Accent-colored raised button -->--%>
@@ -45,7 +45,7 @@
                     <a class="mdl-navigation__link is-active" href="/">Shop</a>
                     <a class="mdl-navigation__link" href="signup.html">Sign Up</a>
                     <a class="mdl-navigation__link" href="signin.html">Sign In</a>
-                    <a class="mdl-navigation__link " href="#">About</a>
+                    <a class="mdl-navigation__link " href="about.html">About</a>
                 </nav>
             </div>
         </header>
@@ -54,7 +54,7 @@
                 <a class="mdl-navigation__link " href="/">Main</a>
                 <a class="mdl-navigation__link is-active" href="signup.html">Sign Up</a>
                 <a class="mdl-navigation__link" href="signin.html">Sign In</a>
-                <a class="mdl-navigation__link " href="#">About</a>
+                <a class="mdl-navigation__link " href="about.html">About</a>
             </nav>
         </div>
         <main class="mdl-layout__content">
