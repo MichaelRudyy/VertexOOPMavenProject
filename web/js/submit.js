@@ -1,6 +1,17 @@
-/**
- * Created by nick on 20.11.16.
- */
+
+$("#button2").click(function(){
+    $.post("/signin",
+        {
+            Name: document.getElementById("Name").value,
+            Email: document.getElementById("Email").value,
+            Pass: document.getElementById("Pass").value
+        },
+        function(data, status){
+            alert("Data: " + data + "\nStatus: " + status);
+            window.location.replace("shop");
+        });
+});
+
 $("#button1").click(function(){
     $.post("/registration",
         {
@@ -16,12 +27,10 @@ $("#button1").click(function(){
 
 $("#update").click(function(){
 
-
-
     $.post("/admin",
         {
             Function: "Update",
-            Id: 1,
+            Id: 2,
             Pass: "12423"
         },
         function(data, status){

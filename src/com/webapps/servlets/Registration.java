@@ -20,17 +20,21 @@ public class Registration extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        if (req.getParameter("Name") != null && req.getParameter("Email") != null && req.getParameter("Pass") != null) {
+        boolean isNotInBase = false;
+        if(DataBase.getUserByEmail(req.getParameter("Email")).equals(null)){
+            isNotInBase=true; 
+        }
+        if (!req.getParameter("Name").equals("") && !req.getParameter("Email").equals("") && !req.getParameter("Pass").equals("") && (isNotInBase==true)) {
             String name = req.getParameter("Name");
             String email = req.getParameter("Email");
             String pass = req.getParameter("Pass");
 
-
-
-            String responsString = "Creat User: " + "Name: " + name + " Email: " + email + " Password " + pass;
-            System.out.println(responsString);
-            resp.getOutputStream().write(responsString.getBytes());
-        }else {
+            String msg = "Login User: " + "Name: " + name + " Email: " + email + " Password " + pass;
+            resp.getOutputStream().write(msg.getBytes());
+        }else if (isNotInBase==false) {
+            String msg = "This user is already registred";
+            resp.getOutputStream().write(msg.getBytes());
+        }else{
             String s = "UserError";
             resp.getOutputStream().write(s.getBytes());
         }

@@ -51,8 +51,8 @@
         </header>
         <div class="mdl-layout__drawer mdl-layout--small-screen-only">
             <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                <a class="mdl-navigation__link " href="/">Main</a>
-                <a class="mdl-navigation__link is-active" href="signup.html">Sign Up</a>
+                <a class="mdl-navigation__link is-active " href="/">Main</a>
+                <a class="mdl-navigation__link " href="signup.html">Sign Up</a>
                 <a class="mdl-navigation__link" href="signin.html">Sign In</a>
                 <a class="mdl-navigation__link " href="about.html">About</a>
             </nav>

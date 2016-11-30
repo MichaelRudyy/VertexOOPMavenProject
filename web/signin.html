@@ -36,7 +36,7 @@
             <div class="mdl-layout__header-row portfolio-logo-row">
                 <span class="mdl-layout__title">
                     <div class="portfolio-logo"></div>
-                <span class="mdl-layout__title">Simple portfolio website</span>
+                <span class="mdl-layout__title"><h5>Best website of Pivasik</h5></span>
                 </span>
             </div>
             <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
@@ -51,8 +51,8 @@
         <div class="mdl-layout__drawer mdl-layout--small-screen-only">
             <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
                 <a class="mdl-navigation__link " href="/">Main</a>
-                <a class="mdl-navigation__link is-active" href="signup.html">Sign Up</a>
-                <a class="mdl-navigation__link" href="signin.html">Sign In</a>
+                <a class="mdl-navigation__link " href="signup.html">Sign Up</a>
+                <a class="mdl-navigation__link  is-active" href="signin.html">Sign In</a>
                 <a class="mdl-navigation__link " href="about.html">About</a>
             </nav>
         </div>
@@ -72,21 +72,21 @@
                         <p>
                             Fill the next form.
                         </p>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name">
-                                <label class="mdl-textfield__label" for="Name">Name...</label>
-                                <span class="mdl-textfield__error">Letters and spaces only</span>
-                            </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="Email">
-                                <label class="mdl-textfield__label" for="Email">Email...</label>
-                            </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="password" id="Pass">
-                                <label class="mdl-textfield__label" for="Pass">Password...</label>
-                            </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name">
+                            <label class="mdl-textfield__label" for="Name">Name...</label>
+                            <span class="mdl-textfield__error">Letters and spaces only</span>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" id="Email" >
+                            <label class="mdl-textfield__label" for="Email">Email...</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="password" id="Pass" >
+                            <label class="mdl-textfield__label" for="Pass">Password...</label>
+                        </div>
                             <p>
-                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+                                <button id="button2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                                     Submit
                                 </button>
                             </p>
@@ -108,20 +108,10 @@
         </main>
     </div>
 
-    <script>
-        $("button").click(function(){
-            $.post("/registration",
-                    {
-                        Name: "Donald Duck",
-                        Email: "Duckburg",
-                        Pass: "12423"
-                    },
-                    function(data, status){
-                        alert("Data: " + data + "\nStatus: " + status);
-                    });
-        });
-    </script>
     <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="js/submit.js"></script>
+
+
 </body>
 
 </html>
