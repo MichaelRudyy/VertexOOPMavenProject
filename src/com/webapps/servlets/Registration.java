@@ -21,7 +21,7 @@ public class Registration extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         boolean isNotInBase = false;
-        if(DataBase.getUserByEmail(req.getParameter("Email")).equals(null)){
+        if(DataBase.getUserByEmail(req.getParameter("Email"))==null){
             isNotInBase=true; 
         }
         if (!req.getParameter("Name").equals("") && !req.getParameter("Email").equals("") && !req.getParameter("Pass").equals("") && (isNotInBase==true)) {

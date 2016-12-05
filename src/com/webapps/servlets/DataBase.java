@@ -160,7 +160,7 @@ public class DataBase {
         Connection conn = null;
         Statement stmt = null;
 
-        if(email==null) return null;
+        if(email.equals("")) return null;
         try {
             //STEP 2: Register JDBC driver
             Class.forName(JDBC_DRIVER);
@@ -172,27 +172,30 @@ public class DataBase {
             //STEP 4: Execute a query
             System.out.println("Creating statement...");
             stmt = conn.createStatement();
-            String sql = "SELECT `id`,`First Name`,`Last Name`, 'e-Mail' FROM users WHERE 'e-mail='"+email;
+            String sql = "SELECT `id`,`First Name`,`Last Name`, `Email` FROM users WHERE `Email`= '"+email+"'" ;
             ResultSet rs = stmt.executeQuery(sql);
 
 
             //STEP 5: Extract data from result set
             if (rs.next()) {
-                //Retrieve by column name
                 int id = rs.getInt("id");
                 String FirstName = rs.getString("First Name");
                 String LastName = rs.getString("Last Name");
-                String eMail = rs.getString("e-Mail");
+                String Email = rs.getString("Email");
+                user.setId(id);
                 user.setFirstName(FirstName);
-                user.setFirstName(LastName);
-                user.setFirstName(email);
-            }else return null;
+                user.setLastName(LastName);
+                user.setFirstName(Email);
+            }else{
+                user=null;
+            }
             //STEP 6: Clean-up environment
             rs.close();
             stmt.close();
             conn.close();
         } catch (SQLException se) {
             //Handle errors for JDBC
+            user= null;
             se.printStackTrace();
         } catch (Exception e) {
             //Handle errors for Class.forName
