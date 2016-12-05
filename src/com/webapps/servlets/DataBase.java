@@ -218,4 +218,60 @@ public class DataBase {
 
         return user;
     }
-}
+
+    public static void insertUser(String name, String email, String pass){
+        final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+        final String DB_URL = "jdbc:mysql://mysql303.1gb.ua/gbua_pivasik";
+
+        //  Database credentials
+        final String USER = "gbua_pivasik";
+        final String PASS = "86aa4a52cnm1";
+
+
+        Connection conn = null;
+        Statement stmt = null;
+        try{
+            //STEP 2: Register JDBC driver
+            Class.forName("com.mysql.jdbc.Driver");
+
+            //STEP 3: Open a connection
+            System.out.println("Connecting to a selected database...");
+            conn = DriverManager.getConnection(DB_URL, USER, PASS);
+            System.out.println("Connected database successfully...");
+
+            //STEP 4: Execute a query
+            System.out.println("Inserting records into the table...");
+            stmt = conn.createStatement();
+
+//            "SELECT `id`,`First Name`,`Last Name`, `Email` FROM users WHERE `Email`= '"+email+"'" ;
+//            INSERT INTO users (`First Name`,  `Last Name`,  `Email`, `password`)
+//            VALUES ('Cardinal','Tom B. Erichsen','admin@admin.com','1234')
+            String sql = "INSERT INTO users (`First Name`,  `Last Name`,  `Email`, `password`)" +
+                    "VALUES ('"+name+"','Default LN','"+email+"','"+pass+"')";
+            stmt.executeUpdate(sql);
+            System.out.println("Inserted records into the table...");
+
+        }catch(SQLException se){
+            //Handle errors for JDBC
+            se.printStackTrace();
+        }catch(Exception e){
+            //Handle errors for Class.forName
+            e.printStackTrace();
+        }finally{
+            //finally block used to close resources
+            try{
+                if(stmt!=null)
+                    conn.close();
+            }catch(SQLException se){
+            }// do nothing
+            try{
+                if(conn!=null)
+                    conn.close();
+            }catch(SQLException se){
+                se.printStackTrace();
+            }//end finally try
+        }//end try
+        System.out.println("Goodbye!");
+}//end JDBCExample
+    }
+

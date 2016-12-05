@@ -30,6 +30,7 @@ public class Registration extends HttpServlet {
             String pass = req.getParameter("Pass");
 
             String msg = "Login User: " + "Name: " + name + " Email: " + email + " Password " + pass;
+            DataBase.insertUser(name,email,pass);
             resp.getOutputStream().write(msg.getBytes());
         }else if (isNotInBase==false) {
             String msg = "This user is already registred";
