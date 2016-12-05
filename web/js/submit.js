@@ -8,7 +8,7 @@ $("#button2").click(function(){
         },
         function(data, status){
             alert("Data: " + data + "\nStatus: " + status);
-            window.location.replace("shop");
+            window.location.replace("signup.html");
         });
 });
 

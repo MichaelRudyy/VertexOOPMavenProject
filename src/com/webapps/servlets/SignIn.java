@@ -32,19 +32,40 @@ public class SignIn extends HttpServlet{
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        if (!req.getParameter("Name").equals("") && !req.getParameter("Email").equals("") && !req.getParameter("Pass").equals("")) {
-            String name = req.getParameter("Name");
-            String email = req.getParameter("Email");
-            String pass = req.getParameter("Pass");
+        String name;
+        String email;
+        String pass;
+        String massage;
 
-            String msg = "Login User: " + "Name: " + name + " Email: " + email + " Password " + pass;
-            System.out.println(msg);
-            resp.getOutputStream().write(msg.getBytes());
-        }else {
-            String s = "UserError";
-            resp.getOutputStream().write(s.getBytes());
+
+       // name = req.getParameter("Name");
+        email = req.getParameter("Email");
+       // pass = req.getParameter("Pass");;
+        boolean BaseAcc;
+
+        if(DataBase.getUserByEmail(email)==null)
+        {
+            BaseAcc=false;
+            if(!req.getParameter("Name").equals("") && !req.getParameter("Email").equals("") && !req.getParameter("Pass").equals(""))
+            {
+                massage="new User";
+                resp.getOutputStream().write(massage.getBytes());
+
+                name = req.getParameter("Name");
+                //email = req.getParameter("Email");
+                pass = req.getParameter("Pass");
+                DataBase.insertUser(name,email,pass);
+
+
+            }else{
+
+                massage="Error Не вірнонаписано";
+                resp.getOutputStream().write(massage.getBytes());
+            }
+        }else{
+            massage="Old User";
+            resp.getOutputStream().write(massage.getBytes());
         }
+
     }
-
-
 }
