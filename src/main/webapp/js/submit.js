@@ -10,7 +10,7 @@ $("#button1").click(function(){
             Pass: document.getElementById("Pass").value
         },
         function(data, status){
-            alert("Data: " + data + "\nStatus: " + status);
+            alert(data + "\nStatus: " + status);
             // window.location.replace("shop");
         });
 });

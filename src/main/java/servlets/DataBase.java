@@ -155,12 +155,9 @@ public class DataBase {
         try {
             //STEP 2: Register JDBC driver
             Class.forName("com.mysql.jdbc.Driver");
-
-
             //getting the biggest existing ID
             ArrayList<User> users =  DataBase.getUsers();
             int id = 0;
-
             for (User user1:users
                  ) {
                 if (user1.getId() >id) id = user1.getId();
@@ -168,7 +165,6 @@ public class DataBase {
             id = id+1;
 
             //STEP 3: Open a connection
-
             System.out.println("Connecting to database to get users...");
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
@@ -184,7 +180,6 @@ public class DataBase {
                     ;
 
             System.out.println(sql);
-
             //executing update query
             stmt.executeUpdate(sql);
 
@@ -211,6 +206,23 @@ public class DataBase {
             }//end finally try
         }//end try
         System.out.println("Goodbye!");
+    }
+
+    public static boolean isUserExisting(String firstName, String  lastName,
+                                         String email, String password){
+        ArrayList<User> users = DataBase.getUsers();
+        boolean isExist = false;
+
+        for (User user:users
+                ) {
+            if (!user.getEmail().equalsIgnoreCase(email)) {
+                isExist = false;
+            }
+            else { return true;
+            }
+
+        }
+        return isExist;
     }
 
 
