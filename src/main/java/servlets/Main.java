@@ -16,7 +16,7 @@ public class Main extends HttpServlet {
             req.getRequestDispatcher("/WEB-INF/jsps/shop.jsp").forward(req,resp);
         }catch (Exception e){
             e.getMessage();
-            String s = "Products Bad Response";
+            String s = "Products Bad Response.";
             resp.getOutputStream().write(s.getBytes());
         }
     }
