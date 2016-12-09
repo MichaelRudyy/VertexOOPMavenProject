@@ -1,3 +1,5 @@
+
+
 .portfolio-header {
   position: relative;
   background-image: url(../images/header-bg.jpg);
@@ -163,6 +165,7 @@ img.article-image {
   margin: auto;
 }
 
+
 footer {
   background-image: url(../images/footer-background.png);
   background-size: cover;
@@ -183,6 +186,8 @@ footer {
   margin-right: 5px;
 
 }
+
+
 .reg-block a{
   color: #ffffff;
 }

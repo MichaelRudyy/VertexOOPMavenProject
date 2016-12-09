@@ -7,6 +7,10 @@
     <welcome-file-list>
         <welcome-file>shop</welcome-file>
     </welcome-file-list>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/404error.jsp</location>
+    </error-page>
 
 
     <servlet>
@@ -28,7 +32,6 @@
         <servlet-name>Admin</servlet-name>
         <url-pattern>/admin</url-pattern>
     </servlet-mapping>
-
 
     <servlet>
         <servlet-name>Registration</servlet-name>
