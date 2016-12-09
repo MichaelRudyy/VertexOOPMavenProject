@@ -1,4 +1,8 @@
-
+.error-image {
+  height: 100%;
+  width: 100%;
+  background: url('/images/41-404-error.jpeg') no-repeat;
+}
 
 .portfolio-header {
   position: relative;
@@ -6,7 +10,7 @@
 }
 
 .portfolio-header .mdl-layout__header-row {
-  padding: 0;
+  padding-bottom: 0;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;

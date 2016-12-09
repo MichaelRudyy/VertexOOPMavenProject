@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: vadimdemeshyn
-  Date: 09.12.16
-  Time: 15:44
-  To change this template use File | Settings | File Templates.
---%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
@@ -25,7 +18,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-pink.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
 </head>
 
@@ -35,7 +27,7 @@
         <div class="mdl-layout__header-row portfolio-logo-row">
                 <span class="mdl-layout__title">
                     <div class="portfolio-logo"></div>
-                    <span class="mdl-layout__title">Simple website of Products ${r}</span>
+                    <span class="mdl-layout__title">Best website of Pivasik ${r}</span>
                 </span>
             <%--<div class="reg-block">--%>
             <%--<!-- Accent-colored raised button -->--%>
@@ -53,7 +45,7 @@
                 <a class="mdl-navigation__link is-active" href="/">Shop</a>
                 <a class="mdl-navigation__link" href="../signup.html">Sign Up</a>
                 <a class="mdl-navigation__link" href="../signin.html">Sign In</a>
-                <a class="mdl-navigation__link " href="#">About</a>
+                <a class="mdl-navigation__link " href="../about.html">About</a>
             </nav>
         </div>
     </header>
@@ -62,30 +54,27 @@
             <a class="mdl-navigation__link " href="/">Main</a>
             <a class="mdl-navigation__link is-active" href="../signup.html">Sign Up</a>
             <a class="mdl-navigation__link" href="../signin.html">Sign In</a>
-            <a class="mdl-navigation__link " href="#">About</a>
+            <a class="mdl-navigation__link " href="../about.html">About</a>
         </nav>
     </div>
-    <body>
-    <div id="error_image" style="height: 100%;
-    width: 100%; background: url('/images/aleksfaure-v2.jpeg') no-repeat center;">
-    </div>
-    </body>
-    <footer class="mdl-mini-footer">
-        <div class="mdl-mini-footer__left-section">
-            <div class="mdl-logo">Simple portfolio website</div>
+    <main class="mdl-layout__content">
+        <div class="error-image">
         </div>
-        <div class="mdl-mini-footer__right-section">
-            <ul class="mdl-mini-footer__link-list">
-                <li><a href="#">Help</a></li>
-                <li><a href="#">For Admin</a></li>
-                <li><a href="#">Privacy & Terms</a></li>
-            </ul>
-        </div>
-    </footer>
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">Simple portfolio website</div>
+            </div>
+            <div class="mdl-mini-footer__right-section">
+                <ul class="mdl-mini-footer__link-list">
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">For Admin</a></li>
+                    <li><a href="#">Privacy & Terms</a></li>
+                </ul>
+            </div>
+        </footer>
     </main>
 </div>
 <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-<script src="../js/submit.js"></script>
 </body>
 
 </html>
