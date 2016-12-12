@@ -1,6 +1,27 @@
-/**
- * Created by nick on 20.11.16.
- */
+$(".read-more-button").click(function() {
+    $.get("/product",
+        {
+
+            ProductId: document.getElementById(this.id).value
+
+        },
+        function(data){
+        alert(data);
+        }
+    )
+});
+
+$(".buy-button").click(function(){
+    $.get("/product",
+        {
+            Id: this.id
+        },
+        function(data){
+            alert(data)
+        }
+    )
+});
+
 $("#button1").click(function(){
     $.post("/registration",
         {

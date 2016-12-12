@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-pink.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
 </head>
 
@@ -75,8 +76,8 @@
                         <c:out value="${product.getPrice()}"/>
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Buy</a>
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
+                        <a id="<c:out value="${product.getTitle()}"/>"  class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent buy-button" >Buy</a>
+                        <a id="<c:out value="${product.getTitle()}"/>" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent read-more-button" href="product.jsp" >Read more</a>
                     </div>
                 </div>
    </c:forEach>
@@ -96,6 +97,7 @@
         </main>
     </div>
     <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="/js/submit.js"></script>
 </body>
 
 </html>

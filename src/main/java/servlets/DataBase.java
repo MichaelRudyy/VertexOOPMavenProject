@@ -225,5 +225,113 @@ public class DataBase {
         return isExist;
     }
 
+    public static void getProduct(String productId){
+        Connection conn = null;
+        Statement stmt = null;
+        try {
+            //STEP 2: Register JDBC driver
+            Class.forName("com.mysql.jdbc.Driver");
+
+
+            //STEP 3: Open a connection
+            System.out.println("Connecting to database to get specific product...");
+            conn = DriverManager.getConnection(DB_URL, USER, PASS);
+
+            //STEP 4: Execute a query
+            System.out.println("Creating statement...");
+            stmt = conn.createStatement();
+            String sql = "SELECT `ID`,`TITLE`,`DESCRIPTION`,`PRICE`,`IMG_URL` FROM products WHERE `TITLE` = "+ "'"+productId+ "'";
+
+            System.out.println(sql);
+            //executing update query
+            ResultSet rs = stmt.executeQuery(sql);
+            while (rs.next()) {
+                //Retrieve by column name
+                int id = rs.getInt("ID");
+                String title = rs.getString("TITLE");
+                String description = rs.getString("DESCRIPTION");
+                Double price = rs.getDouble("PRICE");
+                String imgUrl = rs.getString("IMG_URL");
+
+            }
+
+            //STEP 6: Clean-up environment
+            stmt.close();
+            conn.close();
+        } catch (SQLException se) {
+            //Handle errors for JDBC
+            se.printStackTrace();
+        } catch (Exception e) {
+            //Handle errors for Class.forName
+            e.printStackTrace();
+        } finally {
+            //finally block used to close resources
+            try {
+                if (stmt != null)
+                    stmt.close();
+            } catch (SQLException se2) {
+            }// nothing we can do
+            try {
+                if (conn != null)
+                    conn.close();
+            } catch (SQLException se) {
+                se.printStackTrace();
+            }//end finally try
+        }//end try
+        System.out.println("Goodbye!");
+
+
+
+    }
+
+    public static void buyProduct(String productIdForBuy){
+
+        Connection conn = null;
+        Statement stmt = null;
+        try {
+            //STEP 2: Register JDBC driver
+            Class.forName("com.mysql.jdbc.Driver");
+
+            //STEP 3: Open a connection
+            System.out.println("Connecting to database to buy product...");
+            conn = DriverManager.getConnection(DB_URL, USER, PASS);
+
+            //STEP 4: Execute a query
+            System.out.println("Creating statement - for quantity of sell info...");
+            stmt = conn.createStatement();
+
+            String sql1 = "UPDATE products SET `Count` = Count+1 WHERE TITLE="+"'"+productIdForBuy+"'";
+            stmt.executeUpdate(sql1);
+            System.out.println(sql1);
+
+            //STEP 6: Clean-up environment
+//            rs.close();
+            stmt.close();
+            conn.close();
+        } catch (SQLException se) {
+            //Handle errors for JDBC
+            se.printStackTrace();
+        } catch (Exception e) {
+            //Handle errors for Class.forName
+            e.printStackTrace();
+        } finally {
+            //finally block used to close resources
+            try {
+                if (stmt != null)
+                    stmt.close();
+            } catch (SQLException se2) {
+            }// nothing we can do
+            try {
+                if (conn != null)
+                    conn.close();
+            } catch (SQLException se) {
+                se.printStackTrace();
+            }//end finally try
+        }//end try
+        System.out.println("Goodbye!");
+
+    }
+
+
 
 }
