@@ -17,7 +17,9 @@ $(".buy-button").click(function(){
             Id: this.id
         },
         function(data){
-            alert(data)
+            alert(data);
+            location.reload()
+
         }
     )
 });

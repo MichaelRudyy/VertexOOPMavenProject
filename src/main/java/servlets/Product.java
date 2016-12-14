@@ -10,12 +10,13 @@ import java.io.IOException;
  * Created by nick on 19.11.16.
  */
 public class Product extends HttpServlet {
-    int id;
-    String title;
-    String description;
-    Double price;
-    String imgUrl;
-    int soldTimes;
+    private int id;
+    private String title;
+    private String description;
+    private Double price;
+    private String imgUrl;
+    private int soldTimes;
+    private int available;
 
     public Product(){}
 
@@ -25,6 +26,15 @@ public class Product extends HttpServlet {
         this.description = description;
         this.price = price;
         this.imgUrl = imgUrl;
+    }
+
+    public Product(int id, String title, String description, Double price, String imgUrl, int available) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.price = price;
+        this.imgUrl = imgUrl;
+        this.available = available;
     }
 
 
@@ -49,6 +59,8 @@ public class Product extends HttpServlet {
     }
 
     public int getSoldTimes() {return soldTimes;}
+
+    public int getAvailable() {return available;}
 
 
     @Override

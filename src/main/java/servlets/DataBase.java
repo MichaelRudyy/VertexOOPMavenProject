@@ -34,7 +34,7 @@ public class DataBase {
             //STEP 4: Execute a query
             System.out.println("Creating statement - for products...");
             stmt = conn.createStatement();
-            String sql = "SELECT `ID`,`TITLE`,`DESCRIPTION`,`PRICE`,`IMG_URL` FROM products";
+            String sql = "SELECT `ID`,`TITLE`,`DESCRIPTION`,`PRICE`,`IMG_URL`, `AVAILABLE` FROM products";
             ResultSet rs = stmt.executeQuery(sql);
 
             //STEP 5: Extract data from result set
@@ -45,8 +45,9 @@ public class DataBase {
                 String description = rs.getString("DESCRIPTION");
                 Double price = rs.getDouble("PRICE");
                 String imgUrl = rs.getString("IMG_URL");
+                int available = rs.getInt("AVAILABLE");
 
-                products.add(new Product(id, title, description, price, imgUrl));
+                products.add(new Product(id, title, description, price, imgUrl, available));
 
 //                    //Display values
 //                    System.out.print("ID: " + id);
@@ -300,9 +301,15 @@ public class DataBase {
             System.out.println("Creating statement - for quantity of sell info...");
             stmt = conn.createStatement();
 
-            String sql1 = "UPDATE products SET `Count` = Count+1 WHERE TITLE="+"'"+productIdForBuy+"'";
+            // incrementing quantity of sold products
+            String sql1 = "UPDATE products SET `SOLD` = SOLD+1 WHERE TITLE="+"'"+productIdForBuy+"'";
             stmt.executeUpdate(sql1);
             System.out.println(sql1);
+
+            // decrementing quantity of available products
+            String sql2 = "UPDATE products SET `AVAILABLE` = AVAILABLE-1 WHERE TITLE="+"'"+productIdForBuy+"'";
+            stmt.executeUpdate(sql2);
+            System.out.println(sql2);
 
             //STEP 6: Clean-up environment
 //            rs.close();

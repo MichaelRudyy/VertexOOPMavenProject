@@ -70,6 +70,9 @@
                     <div class="mdl-card__title">
                         <h2 class="mdl-card__title-text"><c:out value="${product.getTitle()}"/></h2>
                     </div>
+                    <div class="mdl-card__title">
+                        <h3 class="mdl-card__title-text">Available: <c:out value="${product.getAvailable()}"/></h3>
+                    </div>
                     <div class="mdl-card__supporting-text">
                         <c:out value="${product.getDescription()}"/>
                         <br>
